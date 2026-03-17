@@ -1,0 +1,17 @@
+{
+  "name": "flora",
+  "version": "1.0.0",
+  "description": "An artistic, nature-inspired to-do app for your desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["todo", "electron", "productivity", "nature", "minimal"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.0.2"
+  }
+}
