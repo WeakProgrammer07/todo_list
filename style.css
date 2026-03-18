@@ -565,24 +565,6 @@ li:hover .delete-btn {
     width: 0%;
 }
 
-/* Resize handle */
-.resize-handle {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    cursor: nwse-resize;
-    background: linear-gradient(135deg, transparent 50%, var(--sage) 50%);
-    border-radius: 0 0 24px 0;
-    opacity: 0.3;
-    transition: opacity 0.2s;
-}
-
-.resize-handle:hover {
-    opacity: 0.5;
-}
-
 /* Subtle texture overlay */
 .container::after {
     content: '';

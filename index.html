@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/window-resize-handle@0.4.0/dist/index.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -77,5 +78,17 @@
     <div id="notification" class="notification"></div>
 
     <script src="app.js"></script>
-</body>
+    <script src="main.js"></script>
+    <script>
+        // Initialize resize handle
+        window.addEventListener('DOMContentLoaded', function() {
+            if (typeof ResizeHandle !== 'undefined') {
+                new ResizeHandle('.resize-handle', {
+                    zIndex: 100,
+                    handleWidth: 10,
+                    handleHeight: 10
+                });
+            }
+        });
+    </script>
 </html>
